@@ -1,0 +1,65 @@
+#main {
+  background-color: #EBECF0;
+  display:grid;
+  justify-items:center;
+  margin:30px 1px;
+  border-radius:5px;
+  font-family:Arial;
+}
+
+#title{
+  font-family: Arial;
+  position:relative;
+  margin-top:50px;
+  }
+
+#img-div{
+  margin:0px 15px;
+  background-color:white;
+  padding:5px 10px ;
+  text-align:center;
+}
+
+#image{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+
+#img-caption{
+  font-size:15px;
+}
+
+#tribute-info{
+  font-size:12px;
+  margin:30px 0px 0px 0px;
+}
+
+#timeline{
+  font-size:15px;
+  padding:0 10%;
+  line-height: 150%;
+  }
+
+li{
+  margin:30px 0px;
+  
+}
+
+#quote{
+  font-style:italic;
+  padding:30px 20px;
+  font-size:15px;
+}
+
+#tribute{
+  font-size:12px;
+  text-align:center;
+  padding:0px;
+  margin:0px;  
+}
+
+/* I could've use <b> but I thought i'd try something that would let me be more flexible in the future */
+.year {
+  font-weight:bold;
+}
